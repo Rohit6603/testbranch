@@ -1,0 +1,48 @@
+/* body{
+    min-height: min-content;
+    max-height: max-content;
+    min-width: min-content;
+    max-width: max-content;
+} */
+.main{
+    background-color: rgb(172, 44, 44);
+    /* display: flex; */
+    display: inline-block;
+    /* flex-wrap: wrap; */
+    border-style: none;
+    border-color: blue;
+    /* height: 25vh; */
+    /* min-height: min-content;
+    max-height: max-content;
+    min-width: min-content;
+    max-width: max-content; */
+}
+.tile{
+    background-color: white;
+    display: flex;
+    
+    /* height: 50vh; */
+    /* width: 50vw; */
+    /* display: inline-flex; */
+    flex-wrap: wrap; 
+    margin: 5px;
+    border-style: none;
+    border-color: blue;
+    height: calc(40vh + 20px); /* Height of the image + margin */
+    width: calc(40vh + 20px);
+     /* min-height: min-content;
+    max-height: max-content;
+    min-width: min-content;
+    max-width: max-content;  */
+} 
+img{
+    border-radius: 50%;
+    align-self: baseline;
+    position: relative;
+    left: 10px;
+    top:10px;
+    height:calc(20vh);
+    width:auto;
+    border-style: none;
+    border-color: blue;
+}

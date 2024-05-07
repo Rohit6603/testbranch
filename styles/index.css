@@ -1,0 +1,21 @@
+p{
+    font-size: 30px;
+}
+.basic_info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#form{
+    background-color: seagreen;
+    padding: 5px;
+    margin: 10px;
+}
+table{
+    border-color: black;
+    border-style: solid;
+}
+#display{
+    color: chartreuse !important;
+}
+table{
+    border-color: blue;
+}

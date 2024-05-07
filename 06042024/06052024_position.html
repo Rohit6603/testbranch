@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .header{
+                background-color: blueviolet;
+                height: 20vh;
+                width:100vw;
+                position:fixed;
+                z-index: 10;
+            }
+            body{
+                height: 300vh;
+                position: relative;
+            }
+            .sidebar{
+                background-color: aqua;
+                height:70vh;
+                width:10vw;
+                position: fixed;
+                top:21.4vh;
+            }
+            .footer{
+                background-color: brown;
+                height: 20vh;
+                width:100vw;
+                position:fixed;
+                top:80vh;
+            }
+            .content{
+                background-color: goldenrod;
+                height:60vh;
+                width:90vw;
+                position:absolute;
+                top:20vh;
+                left:10vw;
+
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header"></header>
+        <div class="sidebar"></div>
+        <div class="content"></div>
+        <footer class="footer"></footer>
+    </body>
+</html>

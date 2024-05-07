@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple HTML document</title>
+        <style>
+            .header{
+                background-color:forestgreen;
+                color:floralwhite;
+                text-align: center;
+                border: 30px;
+                padding:10px;
+            }
+            a{
+                text-decoration: none;
+                color:floralwhite;
+                padding:5px;                   
+            }
+            .section_type{
+                color:forestgreen;
+            }
+            .footer{
+                text-align: center;
+                background-color: gainsboro;
+                padding:5px;
+            }
+            label,input{
+                margin:5px; 
+            }
+            button{
+                margin:5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="header">
+        <section>
+            <h2>Welcome to our website</h2>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Service</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </section>
+    </header>
+    <section id="home">
+        <h4 class="section_type">Home</h4>
+        <p>
+            This is the homepage
+        </p>
+        <img src="images\Mass_Effect_Normandy_SR2.webp" height="200">
+    </section>
+    <section id="about">
+        <h4 class="section_type">About Us</h4>
+        <p>
+            We are a small company
+        </p>
+    </section>
+    <section id="services">
+        <h4 class="section_type">Our Services</h4>
+        <ul>
+            <li>consulting</li>
+            <li>developing</li>
+            <li>multitasking</li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For enquiries, please fill out the form below</p>
+            <form>
+                <label>
+                    Name:<input type="text" required name="name"><br>
+                </label>
+                <label>
+                    Email:<input type="email" required name="email"><br>
+                </label>
+                <button type="submit">Submit</button><br>
+            </form>
+            <p>
+                All rights reserved
+            </p>
+            </footer>
+        </section>
+    </body>
+</html>
